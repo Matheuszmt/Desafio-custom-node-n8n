@@ -24,8 +24,7 @@ Git para clonar o repositório
 
 Clone o repositório:
 
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
-cd <seu-repositorio>
+git clone https://github.com/Matheuszmt/Desafio-custom-node-n8n
 
 
 Instale e compile o custom node:
