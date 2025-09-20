@@ -1,0 +1,27 @@
+{
+"name": "n8n-nodes-random",
+"version": "1.0.0",
+"description": "Random.org True Random Number Generator for n8n",
+"author": "Seu Nome <email@dominio.com>",
+"license": "MIT",
+"keywords": ["n8n", "node", "random", "random.org"],
+"main": "dist/Random.node.js",
+"files": ["dist"],
+"scripts": {
+"build": "tsc -p .",
+"dev": "tsc -w -p .",
+"clean": "rm -rf dist"
+},
+"devDependencies": {
+"@types/node": "^22.0.0",
+"typescript": "^5.5.4"
+},
+"n8n": {
+"nodes": [
+"dist/Random.node.js"
+]
+},
+"engines": {
+"node": ">=22"
+}
+}
